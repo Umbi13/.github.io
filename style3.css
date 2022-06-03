@@ -82,8 +82,6 @@ a {
   width: auto;
 }
 
-/* Dropup Button */
-
   .skills {
   display: flex;
   justify-content: flex-start;
@@ -186,6 +184,7 @@ a {
   .gallery-container {
     width: 100%;
     height: 100%;
+    margin-bottom: 60px;
   }
 
   .gallery-items img {
@@ -335,6 +334,14 @@ a {
       }
 
 
-      .prova {
-        
+      .home-button {
+        position: fixed;
+        top: 0;
+      }
+
+      .home-button img {
+        padding-left: 20px;
+        padding-top: 10px;
+        height: 70px;
+        width: auto;
       }
