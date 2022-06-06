@@ -465,4 +465,31 @@ a {
           color: black;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
         }
+
+        .home-button {
+          display: none;
+        }
+
+        .gallery-container {
+          padding-bottom: 40px;
+        }
+
+        .row {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .row img {
+          width: 95%;
+          margin: 4px;
+        }
+
+        .pan {
+          display: flex;
+          justify-content: center;
+          margin: auto;
+        }
+
+
+
       }
