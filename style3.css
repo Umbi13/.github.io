@@ -12,7 +12,7 @@ body, html {
 font-family: 'Beth Ellen', cursive;
 font-size: 40px;
 position: absolute;
-bottom: 500px;
+bottom: 400px;
 right: 150px;
 text-shadow: 2px 2px 7px #424141;
 }
@@ -47,7 +47,7 @@ text-shadow: 2px 2px 7px #424141;
   }
 
 
-.desk-folder p{
+.desk-folder p {
   display: flex;
   justify-content: space-around;
   font-family: 'Helvetica', sans-serif;
@@ -140,10 +140,10 @@ a {
 
   .photo {
    position: absolute;
-   right: 50px;
+   right: 165px;
    z-index: 1;
    height: 200px;
-   bottom: 700px;
+   bottom: 780px;
    transition: .5s ease;
    opacity: 0;
   }
@@ -160,7 +160,7 @@ a {
   .level p {
     display: none;
     position: absolute;
-    left: 15em;
+    left: 20em;
     bottom: 15em;
     border: 7px solid rgba(67, 67, 66, 0.8);
     border-radius: 2px;
