@@ -1,10 +1,20 @@
+
+
+/*desktop*/
+
+.background-mobile {
+  display: none;
+}
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body, html {
+ body, html {
   height: 100%;
 }
 
@@ -343,4 +353,116 @@ a {
         padding-top: 10px;
         height: 70px;
         width: auto;
+      }
+
+/*mobile*/
+
+      @media only screen and (max-width:500px) {
+
+        .background {
+          display: none;
+        }
+
+        .background-mobile {
+          background-image: linear-gradient(to right, rgba(87, 87, 87), rgba(255,215,0));
+          height: auto;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          }
+
+        .signature-photo-mobile {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        #firma-mobile {
+          font-family: 'Beth Ellen', cursive;
+          font-size: 40px;
+          text-shadow: 2px 2px 7px #424141;
+          display: flex;
+          justify-content: space-around;
+        }
+
+        .signature-photo-mobile img {
+          width: 60%;
+          margin: auto;
+        }
+
+        .skills-mobile {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .skills-mobile img {
+          padding-top: 20px;
+          width: 40%;
+          margin: auto;
+        }
+
+        .skills-mobile p {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding-bottom: 10px;
+          padding-top: 5px;
+          text-align: center;
+          justify-content: space-around;
+          font-family: 'Helvetica', sans-serif;
+          text-shadow: 1px 1px 2px black;
+          font-size: 30px;
+        }
+
+        .desk-folder-mobile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+        .desk-folder-mobile img {
+          width: 50%;
+          margin: auto;
+        }
+
+        .desk-folder-mobile a {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .desk-folder-mobile p {
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          justify-content: space-around;
+          font-family: 'Helvetica', sans-serif;
+          color: black;
+          font-size: 30px;
+          text-shadow: 1px 1px 2px black;
+        }
+
+        .menu-mobile {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          justify-content: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+
+        .menu-mobile a {
+          text-align: center;
+          width: 45%;
+          text-decoration: none;
+          background-color: rgba(67, 67, 66, 0.5);
+          margin: 5px;
+          font-size: 50px;
+          border-radius: 3px;
+          font-family: 'Helvetica', sans-serif;
+          color: black;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+        }
       }
