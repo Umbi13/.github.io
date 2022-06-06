@@ -194,7 +194,7 @@ a {
   .gallery-container {
     width: 100%;
     height: 100%;
-    margin-bottom: 60px;
+    padding-bottom: 70px;
   }
 
   .gallery-items img {
@@ -215,6 +215,18 @@ a {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .home-button {
+    position: fixed;
+    bottom: 5px;
+  }
+
+  .home-button img {
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 70px;
+    width: auto;
   }
 
 
@@ -299,7 +311,6 @@ a {
     }
 
     .writing-footer {
-
       display: flex;
       justify-content: space-around;
       margin-left: 20px;
@@ -343,17 +354,7 @@ a {
         justify-content: space-around;
       }
 
-      .home-button {
-        position: fixed;
-        top: 0;
-      }
 
-      .home-button img {
-        padding-left: 20px;
-        padding-top: 10px;
-        height: 70px;
-        width: auto;
-      }
 
 /*mobile*/
 
