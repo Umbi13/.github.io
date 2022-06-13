@@ -24,12 +24,23 @@ text-shadow: 2px 2px 7px #424141;
 }
 
 .background {
+
    background-image: linear-gradient(to right, rgba(87, 87, 87), rgba(255,215,0));
    height: 100%;
    width: 100%;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   position: absolute;
+}
+
+.desk-photo img {
+  position: absolute;
+  bottom: 18px;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  text-shadow: 2px 2px 7px #424141;
 }
 
 
@@ -37,6 +48,8 @@ text-shadow: 2px 2px 7px #424141;
 .folder-container {
   width: 7em;
   margin-left: 30px;
+  position: absolute;
+  z-index: 2;
 }
 
 .folder-container a {
@@ -348,31 +361,27 @@ a {
         font-family: 'Helvetica', sans-serif;
         font-size: 50px;
         text-decoration: underline;
-        position: absolute;
-        left: 30px;
-        top: 30px;
+
       }
 
       .aboutme {
-        width: 100%;
-        height: 100%;
+
         background-color: rgb(87, 87, 87);
 
       }
 
-      .bio {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: space-around;
+      .bio-background {
+        position: absolute;
+        right: 50px;
+
+        margin: none;
 
       }
 
       .bio p {
-
         background-color: #E8E7E7;
         width: 40%;
-        text-indent: 1em;
+        text-indent: 1m;
         font-family: 'Helvetica', sans-serif;
         color: black;
         font-size: 1.5em;
@@ -382,7 +391,7 @@ a {
 
 /*mobile*/
 
-      @media only screen and (max-width:500px) {
+      @media only screen and (max-width:800px) {
 
         .background {
           display: none;
