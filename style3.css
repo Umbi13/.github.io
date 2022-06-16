@@ -25,7 +25,7 @@ text-shadow: 2px 2px 7px #424141;
 
 .background {
 
-   background-image: linear-gradient(to right, rgba(87, 87, 87), rgba(255,215,0));
+   background-image: linear-gradient(to right, rgba(141, 141, 141), rgba(255,215,0));
    height: 100%;
    width: 100%;
    background-repeat: no-repeat;
@@ -197,7 +197,7 @@ a {
 
 
   .gallery-background {
-     background-color: rgb(87, 87, 87);
+     background-color: rgb(141, 141, 141);
     }
 
   .gallery-container {
@@ -244,7 +244,7 @@ a {
 
   .writing  {
      width: 100%;
-     background-color: rgb(87, 87, 87);
+     background-color: rgb(141, 141, 141);
      display: flex;
      justify-content: space-around;
     }
@@ -266,6 +266,7 @@ a {
    font-family: 'Helvetica', sans-serif;
    font-size: 80px;
    text-decoration: underline;
+   text-decoration-color: rgb(255,215,0);
  }
 
  h2 {
@@ -275,6 +276,7 @@ a {
    font-size: 80px;
    text-decoration: underline;
    padding-top: 20px;
+   text-decoration-color: rgb(255,215,0);
    }
 
  .heading p {
@@ -339,12 +341,12 @@ a {
         margin: 20px;
         max-width: 1000px;
         padding-bottom: 20px;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
       }
 
       .book img {
-        margin-top: 30px;
+        margin-top: 20px;
         text-align: center;
         width: 50%;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
@@ -361,24 +363,29 @@ a {
         font-family: 'Helvetica', sans-serif;
         font-size: 50px;
         text-decoration: underline;
+        text-decoration-color: rgb(255,215,0);
+        padding-top: 30px;
+        margin-left: 50px;
 
       }
 
       .aboutme {
-
-        background-color: rgb(87, 87, 87);
-
+        background-color: rgb(141, 141, 141);
       }
 
-      .bio-background {
-        position: absolute;
-        right: 50px;
-
-        margin: none;
-
+      .bio {
+        margin-top: 50px;
+        padding-bottom: 50px;
       }
 
-      .bio p {
+      .paragraph {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .paragraph p {
+        text-indent: 40px;
         background-color: #E8E7E7;
         width: 40%;
         text-indent: 1m;
@@ -389,6 +396,8 @@ a {
         padding: 10px;
       }
 
+
+
 /*mobile*/
 
       @media only screen and (max-width:800px) {
@@ -398,7 +407,7 @@ a {
         }
 
         .background-mobile {
-          background-image: linear-gradient(to right, rgba(87, 87, 87), rgba(255,215,0));
+          background-image: linear-gradient(to right, rgba(141, 141, 141), rgba(255,215,0));
           height: auto;
           width: 100%;
           display: flex;
@@ -539,7 +548,7 @@ a {
         .writing-mobile {
           display: flex;
           width: 100%;
-          background-color: rgb(87, 87, 87);
+          background-color: rgb(141, 141, 141);
           justify-content: space-around;
         }
 
@@ -602,5 +611,42 @@ a {
           line-height: 40px;
         }
 
+        .aboutme h1 {
+          font-family: 'Helvetica', sans-serif;
+          font-size: 50px;
+          text-decoration: underline;
+          text-decoration-color: rgb(255,215,0);
+          display: flex;
+          justify-content: space-around;
+          margin: 0;
+        }
+
+        .aboutme {
+          background-color: rgb(141, 141, 141);
+        }
+
+        .bio {
+          margin-top: 50px;
+          padding-bottom: 50px;
+        }
+
+        .paragraph {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .paragraph p {
+          text-indent: 40px;
+          background-color: #E8E7E7;
+          width: 80%;
+          text-indent: 1m;
+          font-family: 'Helvetica', sans-serif;
+          color: black;
+          font-size: 1.5em;
+          text-align: justify;
+          padding: 10px;
+
+        }
 
       }
