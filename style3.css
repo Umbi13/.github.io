@@ -14,15 +14,6 @@
   height: 100%;
 }
 
-#firma {
-font-family: 'Beth Ellen', cursive;
-font-size: 40px;
-position: absolute;
-bottom: 400px;
-right: 150px;
-text-shadow: 2px 2px 7px #424141;
-}
-
 .background {
 
    background-image: linear-gradient(to right, rgba(141, 141, 141), rgba(255,215,0));
@@ -42,8 +33,6 @@ text-shadow: 2px 2px 7px #424141;
   height: auto;
   text-shadow: 2px 2px 7px #424141;
 }
-
-
 
 .folder-container {
   width: 7em;
@@ -153,19 +142,6 @@ a {
  display: block;
 }
 
- .signature-photo:hover .photo {
-  opacity: 1;
-  }
-
-  .photo {
-   position: absolute;
-   right: 165px;
-   z-index: 1;
-   height: 200px;
-   bottom: 780px;
-   transition: .5s ease;
-   opacity: 0;
-  }
 
   .skills:hover img {
     border-bottom: 2px solid rgb(255,215,0);
@@ -179,7 +155,7 @@ a {
   .level p {
     display: none;
     position: absolute;
-    left: 20em;
+    left: 42%;
     bottom: 15em;
     border: 7px solid rgba(67, 67, 66, 0.8);
     border-radius: 2px;
@@ -366,16 +342,29 @@ a {
         text-decoration-color: rgb(255,215,0);
         padding-top: 30px;
         margin-left: 50px;
-
       }
 
       .aboutme {
         background-color: rgb(141, 141, 141);
+        height: 200%;
+
+      }
+
+      .bio-container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .photo img {
+        margin-left: 30%;
+        margin-top: 10%;
+        height: 500px;
       }
 
       .bio {
         margin-top: 50px;
         padding-bottom: 50px;
+
       }
 
       .paragraph {
@@ -387,7 +376,7 @@ a {
       .paragraph p {
         text-indent: 40px;
         background-color: #E8E7E7;
-        width: 40%;
+        width: 60%;
         text-indent: 1m;
         font-family: 'Helvetica', sans-serif;
         color: black;
