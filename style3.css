@@ -410,6 +410,12 @@ a {
           justify-content: space-around;
         }
 
+        .skills-mobile h1,
+        .desk-folder-mobile h1 {
+          margin-top: 20px;
+          font-size: 50px;
+        }
+
         #firma-mobile {
           font-family: 'Beth Ellen', cursive;
           font-size: 40px;
