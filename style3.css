@@ -346,7 +346,7 @@ a {
 
       .aboutme {
         background-color: rgb(141, 141, 141);
-        height: 200%;
+        height: 100%;
 
       }
 
@@ -414,8 +414,7 @@ a {
           font-family: 'Beth Ellen', cursive;
           font-size: 40px;
           text-shadow: 2px 2px 7px #424141;
-          display: flex;
-          justify-content: space-around;
+          text-align: center;
         }
 
         .signature-photo-mobile img {
@@ -487,10 +486,10 @@ a {
 
         .menu-mobile a {
           text-align: center;
-          width: 45%;
+          width: 85%;
           text-decoration: none;
           background-color: rgba(67, 67, 66, 0.5);
-          margin: 5px;
+          margin: 10px;
           font-size: 50px;
           border-radius: 3px;
           font-family: 'Helvetica', sans-serif;
@@ -612,6 +611,18 @@ a {
 
         .aboutme {
           background-color: rgb(141, 141, 141);
+          height: auto;
+          width: 100%;
+        }
+
+        .bio-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+        }
+
+        .photo img {
+          display: none;
         }
 
         .bio {
