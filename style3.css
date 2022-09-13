@@ -44,10 +44,6 @@
   padding: 0;
 }
 
-  .desk-folder img {
-
-  }
-
 .desk-folder {
   padding-top: 10px;
   width: 100px;
@@ -64,6 +60,7 @@
   font-family: 'Helvetica', sans-serif;
   color: white;
   text-shadow: 2px 2px 4px black;
+
 }
 
 a {
@@ -163,7 +160,6 @@ a {
     bottom: 10em;
     border: 7px solid rgba(67, 67, 66, 0.8);
     border-top:  20px solid rgba(67, 67, 66, 0.8);
-    border-radius: 2px;
     background-color: #E8E7E7;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     z-index: 1;
@@ -174,6 +170,7 @@ a {
     text-align: center;
     line-height: 50px;
     padding: 10px;
+    border-radius: 5px;
     }
 
   .gallery-background {
@@ -231,6 +228,7 @@ a {
 
     .heading, .tales, .book {
       background-color: #E8E7E7;
+      border-radius: 5px;
     }
 
    .heading {
