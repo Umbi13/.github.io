@@ -227,7 +227,7 @@ a {
      justify-content: space-around;
     }
 
-    .page-header {
+    .page-head {
       margin: 20px;
     }
 
@@ -252,7 +252,7 @@ a {
    font-size: 80px;
    text-decoration: underline;
    text-decoration-color: rgb(255,215,0);
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+
    padding: 15px;
  }
 
@@ -419,8 +419,6 @@ a {
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
       }
 
-
-
       .contact-me {
         background-color: rgb(141, 141, 141);
         height: 100%;
@@ -490,19 +488,31 @@ a {
           width: 100%;
           display: flex;
           flex-direction: column;
+          align-items: center;
           }
 
         .signature-photo-mobile {
           width: 100%;
           display: flex;
           flex-direction: column;
-          justify-content: space-around;
+          align-items: center;
         }
 
-        .skills-mobile h1,
-        .desk-folder-mobile h1 {
+        .background-mobile h2 {
           margin-top: 20px;
+          margin-left: 20%;
+          margin-right: 20%;
           font-size: 50px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-family: 'Helvetica', sans-serif;
+          text-decoration: underline;
+          padding-top: 15px;
+          text-decoration-color: rgb(255,215,0);
+          background-color: #E8E7E7;
+          padding: 10px;
+          border-radius: 5px;
         }
 
         #firma-mobile {
@@ -515,6 +525,7 @@ a {
         .signature-photo-mobile img {
           width: 60%;
           margin: auto;
+          border-radius: 5px;
         }
 
         .skills-mobile {
@@ -620,8 +631,15 @@ a {
           display: none;
         }
 
-        h1 {
-          text-align: center;
+      .page-header h1 {
+          display: flex;
+          justify-content: space-around;
+          font-family: 'Helvetica', sans-serif;
+          font-size: 80px;
+          text-decoration: underline;
+          text-decoration-color: rgb(255,215,0);
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+          padding: 15px;
         }
 
         .heading {
@@ -633,6 +651,16 @@ a {
           width: 100%;
           background-color: rgb(141, 141, 141);
           justify-content: space-around;
+        }
+
+        .writing-mobile h2 {
+          display: flex;
+          justify-content: space-around;
+          font-family: 'Helvetica', sans-serif;
+          font-size: 60px;
+          text-decoration: underline;
+          text-decoration-color: rgb(255,215,0);
+          padding: 15px;
         }
 
         .column-mobile {
